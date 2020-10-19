@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  background-color: #9d4edd;
+  border-radius: 20px;
+  margin-top: 2rem;
+  padding: 10px;
+  font-size: 16pt;
+}
+
+h1 {
+  color: #240046;
+}
+
+h3 {
+  margin: 10px;
+  margin-left: 0;
+}
+
+h3::before {
+  width: 20px;
+  background-color: aqua;
+  padding-right: 20px;
+}
+
+.Section {
+  text-align: left;
+  color: antiquewhite;
+}
+
+.Section input {
+  display: block;
+  font-size: 14pt;
+  width: 100%;
+  border: none;
+  color: #e0aaff;
+  background-color: #9d4edd;
+  border-bottom: 1px solid #5a189a;
+  outline: none;
+}
+
+.Section input[type='date']{
+  display: inline;
+}
+
+
+
